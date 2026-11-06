@@ -1,0 +1,39 @@
+body {
+    color: #e0e0e0;
+    background-color: #333131;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.hi{ /*hello world text */
+    font-family: monospace;
+    color:#ff6600
+    
+}
+.btn { /*Button section*/
+    display: inline-block;
+    padding: 12px;
+    border-radius: 12%;
+    background-color: rgb(110, 103, 84);
+    color:#e0e0e0;
+    text-decoration: none;
+    transition: 0.1s;
+    margin-top: 5px;
+
+}
+.ki {/* KI Portfolio*/
+    border-radius: 10%;
+    background-color: rgb(89, 141, 153);
+}
+.buttons {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.btn:hover {
+    transform: translateY(-4px);
+}
